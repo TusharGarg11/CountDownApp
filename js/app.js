@@ -1,4 +1,4 @@
-const givenBirthdayDate="18 March 2023 10:41 PM";
+const givenBirthdayDate="20 March 2023 11:41 PM";
 const inputs=document.querySelectorAll("input");
 
 
@@ -21,6 +21,10 @@ const CounterInterval=setInterval(() => {
 }, 1000);
 
 clockCounter();
+
+function myFunction(){
+    document.getElementById("modelId").style.display="block";
+}
 
 // Dom Manipulation
 document.getElementById("printBirtdayDate").innerHTML=givenBirthdayDate;

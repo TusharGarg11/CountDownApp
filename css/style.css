@@ -34,7 +34,7 @@ input[type="text"] {
     font-size: medium;
 }
 
-input {
+.col div input {
     width: 40px;
     height: 40px;
     border-radius: 10px;
@@ -49,11 +49,41 @@ input {
 }
 
 .alertDiv {
-    margin: 5px auto; 
+    margin: 5px auto;
     width: 50%;
     background: repeating-linear-gradient(45deg, rgba(0, 128, 128, .25), rgba(0, 128, 128, .25) 10px, rgba(0, 128, 128, .3) 10px, rgba(0, 128, 128, .3) 20px);
     box-shadow: 5px 5px 0 rgba(0, 0, 0, .2);
     border: 2px solid #008080;
     color: #feffff;
     display: none;
+}
+
+.ribbon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-birthday-cake:hover {
+    color: red;
+}
+
+.model {
+    display: none;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.70); */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.modelContent div{
+    margin-top: 10px;
+}
+.modelContent div label{
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
 }
