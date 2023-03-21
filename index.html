@@ -37,7 +37,7 @@
             <!-- Alert Box to Wish the Happy Birthday -->
             <div class="alertDiv" id="alertDisplayBox">
                 <p ><i class='fa fa-birthday-cake'></i>
-                    <strong> Happy Birthday !! </strong>Wishing you a birthday that’s just as wonderful as you are..</p>
+                    <strong> Happy Birthday !! </strong><span id="showBirtdayQuotes">Wishing you a birthday that’s just as wonderful as you are..</span></p>
             </div>
             
             <!-- Form to Enter the BirthDay Date and Quotes -->
@@ -46,7 +46,7 @@
             </div>
 
             <!--Model Code to Enter the Data  -->
-            <div class="model" id="modelId">
+            <!-- <div class="model" id="modelId">
                 <div class="modelContent">
                     <h3><strong>BirthDay !!</strong></h3>
                     <form>
@@ -56,14 +56,14 @@
                         </div>
                         <div class="formBirthdayQuotes">
                             <label for="">Birthday Wishes</label>
-                            <input type="text">
+                            <input type="text" id="formBirthdayQuotesInputBox">
                         </div>
                         <div class="formSendButton">
-                            <button>Submit</button>
+                            <button onclick="updateWishesQuotes()">Submit</button>
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <script src="js/app.js" />
